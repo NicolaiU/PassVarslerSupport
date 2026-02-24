@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PassVarsler</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		body {
+			background: #fff;
+			color: #222;
+			font-family: 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+		.container {
+			max-width: 420px;
+			margin: 0 auto;
+			padding: 32px 16px 0 16px;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		header {
+			margin-bottom: 32px;
+		}
+		h1 {
+			font-size: 2.1rem;
+			font-weight: 700;
+			margin: 0 0 8px 0;
+			letter-spacing: -1px;
+		}
+		.subtitle {
+			font-size: 1.1rem;
+			color: #444;
+			margin-bottom: 24px;
+		}
+		.section {
+			margin-bottom: 28px;
+		}
+		a {
+			color: #1a1a1a;
+			text-decoration: underline;
+			word-break: break-all;
+		}
+		a:hover {
+			color: #007aff;
+		}
+		.contact {
+			font-size: 1rem;
+		}
+		footer {
+			text-align: center;
+			font-size: 0.95rem;
+			color: #888;
+			margin: 32px 0 16px 0;
+		}
+		@media (max-width: 500px) {
+			.container {
+				padding-top: 18px;
+			}
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>PassVarsler</h1>
+			<div class="subtitle">iOS-app for push-varsler om passinformasjon</div>
+		</header>
+		<main>
+			<section class="section">
+				<p>
+					<strong>PassVarsler</strong> gir deg push-varsler når det er ny informasjon om pass, slik at du alltid er oppdatert på status for passet ditt eller dine nærmeste. Enkelt, trygt og effektivt.
+				</p>
+			</section>
+			<section class="section contact">
+				<div><strong>Kontakt:</strong></div>
+				<a href="mailto:Ubergnicolai@gmail.com">Ubergnicolai@gmail.com</a>
+			</section>
+			<section class="section">
+				<a href="#" onclick="window.open('personvernpolicy.html', '_blank')">Personvernpolicy</a>
+			</section>
+		</main>
+	</div>
+	<footer>
+		&copy; 2026 PassVarsel
+	</footer>
+</body>
+</html>
